@@ -1,0 +1,50 @@
+{
+  "timestamp": "20260127_150348",
+  "files": {
+    "csv1": "reward-spo.csv",
+    "csv2": "value-spo.csv",
+    "label1": "reward-spo",
+    "label2": "value-spo"
+  },
+  "data_info": {
+    "original_length_1": 80,
+    "original_length_2": 80,
+    "aligned_length": 80,
+    "step_range": [
+      1.0,
+      80.0
+    ]
+  },
+  "metrics": {
+    "pearson_correlation": {
+      "value": 0.9297949295332268,
+      "p_value": 1.3445374396787308e-35,
+      "interpretation": "Very Strong",
+      "description": "Linear Correlation"
+    },
+    "rmse": {
+      "value": 0.08243493825387595,
+      "normalized": 0.32754925177548977,
+      "interpretation": "High Error",
+      "description": "Root Mean Square Error"
+    },
+    "mae": {
+      "value": 0.07927862667739391,
+      "normalized": 0.3150078765146379,
+      "interpretation": "High Error",
+      "description": "Mean Absolute Error"
+    }
+  },
+  "config": {
+    "figure_size": [
+      12,
+      12
+    ],
+    "dpi": 300,
+    "font_size": 20,
+    "title_font_size": 22,
+    "interpolate": true,
+    "smooth_window": 5,
+    "dtw_window": null
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "timestamp": "20260127_150353",
+  "files": {
+    "csv1": "reward-lsvt.csv",
+    "csv2": "value-lsvt.csv",
+    "label1": "reward-lsvt",
+    "label2": "value-lsvt"
+  },
+  "data_info": {
+    "original_length_1": 80,
+    "original_length_2": 80,
+    "aligned_length": 80,
+    "step_range": [
+      1.0,
+      80.0
+    ]
+  },
+  "metrics": {
+    "pearson_correlation": {
+      "value": 0.9435609261898659,
+      "p_value": 3.515668918765068e-39,
+      "interpretation": "Very Strong",
+      "description": "Linear Correlation"
+    },
+    "rmse": {
+      "value": 0.08008197164600607,
+      "normalized": 0.3308211124341325,
+      "interpretation": "High Error",
+      "description": "Root Mean Square Error"
+    },
+    "mae": {
+      "value": 0.07727946117520332,
+      "normalized": 0.31924385462562654,
+      "interpretation": "High Error",
+      "description": "Mean Absolute Error"
+    }
+  },
+  "config": {
+    "figure_size": [
+      12,
+      12
+    ],
+    "dpi": 300,
+    "font_size": 20,
+    "title_font_size": 22,
+    "interpolate": true,
+    "smooth_window": 5,
+    "dtw_window": null
+  }
+}
