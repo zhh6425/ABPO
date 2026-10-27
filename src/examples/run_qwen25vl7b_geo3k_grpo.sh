@@ -3,7 +3,7 @@ ENGINE=${1:-vllm}
 # If you are using vllm<=0.6.3, you might need to set the following environment variable to avoid bugs:
 # export VLLM_ATTENTION_BACKEND=XFORMERS
 
-project_name="lsvt_qwen25_vl_7b_geo3k"
+project_name="qwen25_vl_7b_geo3k"
 loss_agg_mode=seq-mean-token-mean
 experiment_name="qwen25-vl-7b-geo3k-grpo"
 export TENSORBOARD_DIR="tensorboard_log/$project_name/$experiment_name"
